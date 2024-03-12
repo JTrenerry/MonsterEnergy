@@ -1,9 +1,10 @@
 # MonsterEnergy
-1. White No Sugar
-2. Ultra Rosa No Sugar
-3. Peach No Sugar
-4. Mango No Sugar
-5. Ultra Gold No Sugar
+1. Monster Energy Zero Ultra
+2. Monster Energy Ultra Rosa
+3. Monster Energy Ultra Peachy Keen
+4. Monster Energy Ultra Mango Fiesta
+5. Monster Energy Ultra Gold
+6. Monster Energy Zero Sugar
 
 ---
 Tier list atm maybe one day a scraper
