@@ -1,4 +1,3 @@
-theme: jekyll-theme-midnight
 # MonsterEnergy
 1. Monster Energy Zero Ultra
 2. Monster Energy Ultra Rosa
