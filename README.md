@@ -8,3 +8,6 @@
 
 ---
 Tier list atm maybe one day a scraper
+
+---
+[Homepage](https://jtrenerry.github.io/)https://jtrenerry.github.io/
