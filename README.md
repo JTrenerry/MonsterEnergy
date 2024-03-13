@@ -9,5 +9,8 @@
 ---
 Tier list atm maybe one day a scraper
 
+Scrape Coles and Woolies for specials on 4 packs of any monster  or the individual can then return the special what for and where at 😸
+
+
 ---
 [Homepage](https://jtrenerry.github.io/)
