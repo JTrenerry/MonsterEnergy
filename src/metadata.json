@@ -1,6 +1,0 @@
-{
-    "uuid": "MonsterEnergy@cinnamon.org", 
-    "name": "MonsterEnergy", 
-    "description": "Web scrapes Coles and Woolworths websites to find the cheapest energy drink", 
-    "url" : "https://github.com/JTrenerry/MonsterEnergy"
-}
