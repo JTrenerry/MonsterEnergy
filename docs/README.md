@@ -1,24 +1,23 @@
-# Linux Distro Tierlist
+# Monster Energy Tierlist
 
-## Linux Distro WIP
+## MonsterEnergy WIP
 
-1. [Ubuntu](https://ubuntu.com/) (9.5/10)
-2. [Fedora](https://getfedora.org/) (9.5/10)
-3. [Debian](https://www.debian.org/) (9/10)
-4. [openSUSE](https://www.opensuse.org/) (8.5/10)
-5. [Manjaro](https://manjaro.org/) (8/10)
-6. [Pop!_OS](https://pop.system76.com/) (7.5/10)
-7. [Linux Mint](https://linuxmint.com/) (7/10)
-8. [elementary OS](https://elementary.io/) (6.5/10)
-9. [Solus](https://getsol.us/) (6/10)
-10. [Arch Linux](https://www.archlinux.org/) (0/10 - Terrible)
-
----
-
-## The distro comparison source code can be found [here](https://github.com/LinuxDistroComparison)
-
-Compare package managers, desktop environments, and more to help you choose the right Linux distribution.
+1. [Monster Energy Zero Ultra](https://www.woolworths.com.au/shop/productdetails/489787/monster-energy-ultra-can) (9.5/10)
+2. [Monster Energy Ultra Rosa](https://www.woolworths.com.au/shop/productdetails/124312/monster-energy-ultra-rosa-can) (9.5/10)
+3. [Monster Energy Ultra Strawberry Dreams](https://www.coles.com.au/product/monster-energy-drink-ultra-strawberry-can-500ml-7717127) (9/10)
+4. [Monster Energy Pipeline Punch](https://www.coles.com.au/product/monster-pipeline-punch-can-500ml-3511469) (8.5/10)
+5. [Monster Energy Ultra Peachy Keen](https://www.woolworths.com.au/shop/productdetails/391929/monster-ultra-peachy-keen-energy-drink) (8/10)
+6. [Monster Energy Ultra Mango Fiesta](https://www.woolworths.com.au/shop/productdetails/174492/monster-energy-drink-ultra-fiesta-mango-flavour) (7/10)
+7. [Monster Energy Ultra Paradise](https://www.woolworths.com.au/shop/productdetails/62911/monster-energy-ultra-paradise-can) (5.5/10)
+8. [Monster Energy Ultra Gold](https://www.woolworths.com.au/shop/productdetails/220971/monster-energy-ultra-gold) (5/10)
+9. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0/10)
 
 ---
 
-[Homepage](https://linuxdistrocomparison.github.io/)
+## The scraper source code can be found [here](https://github.com/JTrenerry/MonsterEnergy)
+
+Scrape Coles for specials on monsters return the prices
+
+---
+
+[Homepage](https://jtrenerry.github.io/)
