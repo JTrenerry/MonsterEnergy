@@ -16,7 +16,7 @@
 
 ## The scraper source code can be found [here](https://github.com/JTrenerry/MonsterEnergy)
 
-Scrape Coles and Woolies for specials on monsters return the prices
+Scrape Coles for specials on monsters return the prices
 
 ---
 
