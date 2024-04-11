@@ -27,7 +27,7 @@ async function coles() {
         data = data.replaceAll("$", " $");
         data = data.replace("500mL", "");
         data = data.replace("500ml", "");
-        data = data.replace(regex2, " "); // not working 
+        data = data.replace(regex2, " ");
         data = data.replace("4 pack", "4 Pack").replace("4 Pack", "");
         data = data.replace("for ", "for");
         data = data.replace("SPECIAL", "");
@@ -56,6 +56,7 @@ async function coles() {
 async function main() {
     var fs = require('fs');
     text = await coles();
+    
     // writes to file
     fs.writeFile('./output.txt', "", function (err) {
         if (err) throw err;
