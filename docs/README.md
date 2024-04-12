@@ -10,7 +10,8 @@
 6. [Monster Energy Ultra Mango Fiesta](https://www.woolworths.com.au/shop/productdetails/174492/monster-energy-drink-ultra-fiesta-mango-flavour) (7/10)
 7. [Monster Energy Ultra Paradise](https://www.woolworths.com.au/shop/productdetails/62911/monster-energy-ultra-paradise-can) (5.5/10)
 8. [Monster Energy Ultra Gold](https://www.woolworths.com.au/shop/productdetails/220971/monster-energy-ultra-gold) (5/10)
-9. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0/10)
+9. [Monster Java Loca Moca Super Coffee](https://www.woolworths.com.au/shop/productdetails/317864/monster-java-loca-moca-super-coffee) (3/10) (I don't like coffee)
+10. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0/10)
 
 ---
 
