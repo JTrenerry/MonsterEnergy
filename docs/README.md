@@ -13,12 +13,4 @@
 9. [Monster Java Loca Moca Super Coffee](https://www.woolworths.com.au/shop/productdetails/317864/monster-java-loca-moca-super-coffee) (3/10) (I don't like coffee)
 10. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0/10)
 
----
-
-## The scraper source code can be found [here](https://github.com/JTrenerry/MonsterEnergy)
-
-Scrape Coles for specials on monsters return the prices
-
----
-
 [Homepage](https://jtrenerry.github.io/)
