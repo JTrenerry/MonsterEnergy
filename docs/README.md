@@ -2,7 +2,7 @@
 
 ## MonsterEnergy
 
-1. [Monster Energy Zero Ultra](https://www.woolworths.com.au/shop/productdetails/489787/monster-energy-ultra-can) (9.5/10)
+1. [Monster Energy Zero Ultra](https://www.woolworths.com.au/shop/productdetails/489787/monster-energy-ultra-can) (10/10)
 2. [Monster Energy Ultra Rosa](https://www.woolworths.com.au/shop/productdetails/124312/monster-energy-ultra-rosa-can) (9.5/10)
 3. [Monster Energy Ultra Strawberry Dreams](https://www.coles.com.au/product/monster-energy-drink-ultra-strawberry-can-500ml-7717127) (9/10)
 4. [Monster Energy Pipeline Punch](https://www.coles.com.au/product/monster-pipeline-punch-can-500ml-3511469) (8.5/10)
