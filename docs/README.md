@@ -9,7 +9,7 @@
 5. [Monster Energy Ultra Peachy Keen](https://www.woolworths.com.au/shop/productdetails/391929/monster-ultra-peachy-keen-energy-drink) (8/10)
 6. [Monster Energy Mango Loco](https://www.woolworths.com.au/shop/productdetails/698612/monster-energy-mango-loco-can) (7.5/10)
 7. [Monster Energy Ultra Mango Fiesta](https://www.woolworths.com.au/shop/productdetails/174492/monster-energy-drink-ultra-fiesta-mango-flavour) (7/10)
-8. [Monster Energy Zero Augar Lewiw Hamilton](https://www.monsterenergy.com/en-gb/energy-drinks/monster-energy/lewis-hamilton-zero-sugar/) (6.5/10)
+8. [Monster Energy Zero Sugar Lewis Hamilton](https://www.monsterenergy.com/en-gb/energy-drinks/monster-energy/lewis-hamilton-zero-sugar/) (6.5/10)
 10. [Monster Energy ASSAULT](https://www.monsterenergy.com/en-us/energy-drinks/monster-energy/assault/) (6.5/10)
 11. [Monster Energy Ultra Sunrise](https://www.monsterenergy.com/en-us/energy-drinks/zero-sugar/ultra-sunrise/) (6.5/10)
 12. [Monster Energy Ultra Paradise](https://www.woolworths.com.au/shop/productdetails/62911/monster-energy-ultra-paradise-can) (5.5/10)
