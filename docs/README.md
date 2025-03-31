@@ -28,5 +28,6 @@
 24. [Monster Energy Ultra Violet](https://www.monsterenergy.com/en-us/energy-drinks/zero-sugar/ultra-violet/) (4/10)
 25. [Monster Java Loca Moca Super Coffee](https://www.woolworths.com.au/shop/productdetails/317864/monster-java-loca-moca-super-coffee) (3/10) (I don't like coffee)
 26. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0/10)
+27. Monster Energy Khaotic
 
 [Homepage](https://jtrenerry.github.io/)
