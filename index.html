@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monster Energy Tierlist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    ol {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0;
+    }
+    li {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Monster Energy Tierlist</h1>
+  <h2>MonsterEnergy</h2>
+  <ol id="tierlist"></ol>
+
+  <script>
+    const flavours = [
+      { name: "Monster Energy Zero Ultra", rating: 10, link: "https://www.woolworths.com.au/shop/productdetails/489787/monster-energy-ultra-can" },
+      { name: "Monster Energy Ultra Rosa", rating: 9.5, link: "https://www.woolworths.com.au/shop/productdetails/124312/monster-energy-ultra-rosa-can" },
+      { name: "Monster Energy Ultra Strawberry Dreams", rating: 9, link: "https://www.coles.com.au/product/monster-energy-drink-ultra-strawberry-can-500ml-7717127" },
+      { name: "Monster Rehab Wild Berry Tea", rating: 9 },
+      { name: "Monster Energy Ultra Ruby Red", rating: 9 },
+      { name: "Monster Energy Pipeline Punch", rating: 8.5, link: "https://www.coles.com.au/product/monster-pipeline-punch-can-500ml-3511469" },
+      { name: "Monster Energy Ultra Peachy Keen", rating: 8, link: "https://www.woolworths.com.au/shop/productdetails/391929/monster-ultra-peachy-keen-energy-drink" },
+      { name: "Monster Energy Ultra Guava Vice", rating: 8 },
+      { name: "Monster Energy Aussie Lemonade", rating: 7.5 },
+      { name: "Monster Energy Papillon", rating: 7.5, link: "https://www.woolworths.com.au/shop/productdetails/231564/monster-papillon-can" },
+      { name: "Monster Energy The Doctor", rating: 7.5, link: "https://www.monsterenergy.com/en-gb/energy-drinks/monster-energy/vr46-aka-the-doctor/" },
+      { name: "Monster Energy Mango Loco", rating: 7.5, link: "https://www.woolworths.com.au/shop/productdetails/698612/monster-energy-mango-loco-can" },
+      { name: "Monster Energy Ultra Mango Fiesta", rating: 7, link: "https://www.woolworths.com.au/shop/productdetails/174492/monster-energy-drink-ultra-fiesta-mango-flavour" },
+      { name: "Monster Energy Zero Sugar Lewis Hamilton", rating: 6.5, link: "https://www.monsterenergy.com/en-gb/energy-drinks/monster-energy/lewis-hamilton-zero-sugar/" },
+      { name: "Monster Energy ASSAULT", rating: 6.5, link: "https://www.monsterenergy.com/en-us/energy-drinks/monster-energy/assault/" },
+      { name: "Monster Energy Ultra Sunrise", rating: 6.5, link: "https://www.monsterenergy.com/en-us/energy-drinks/zero-sugar/ultra-sunrise/" },
+      { name: "Monster Reserve Watermelon", rating: 6.5 },
+      { name: "Monster Energy Bad Apple", rating: 6 },
+      { name: "Monster Energy Ultra Paradise", rating: 5.5, link: "https://www.woolworths.com.au/shop/productdetails/62911/monster-energy-ultra-paradise-can" },
+      { name: "Monster Energy Ultra Gold", rating: 5, link: "https://www.woolworths.com.au/shop/productdetails/220971/monster-energy-ultra-gold" },
+      { name: "Monster Rehab Green Tea", rating: 4.5 },
+      { name: "Monster Energy Ripper", rating: 4.5, link: "https://www.monsterenergy.com/en-gb/energy-drinks/juiced-monster/ripper/" },
+      { name: "Monster Reserve White Pineapple", rating: 4 },
+      { name: "Monster Rehab Tea + Lemonade", rating: 4 },
+      { name: "Monster Energy Ultra Watermelon", rating: 4, link: "https://www.monsterenergy.com/en-us/energy-drinks/zero-sugar/ultra-watermelon/" },
+      { name: "Monster Energy Ultra Violet", rating: 4, link: "https://www.monsterenergy.com/en-us/energy-drinks/zero-sugar/ultra-violet/" },
+      { name: "Monster Rehab Strawberry Lemonade", rating: 3.5 },
+      { name: "Monster Java Loca Moca Super Coffee", rating: 3, link: "https://www.woolworths.com.au/shop/productdetails/317864/monster-java-loca-moca-super-coffee" },
+      { name: "Monster Juice Rio Punch", rating: 3 },
+      { name: "Monster Energy Import", rating: 1 },
+      { name: "Monster Energy Zero Sugar", rating: 0.5, link: "https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116" },
+      { name: "Monster Energy", rating: 0 },
+      { name: "Monster Juice Pacific Punch", rating: -1 },
+      { name: "Monster Energy Khaotic", rating: -1 },
+    ];
+
+    flavours.sort((a, b) => b.rating - a.rating);
+
+    const list = document.getElementById("tierlist");
+    flavours.forEach((flavour, index) => {
+      const li = document.createElement("li");
+      li.innerHTML = `${index + 1}. ` +
+        (flavour.link
+          ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
+          : flavour.name) +
+        ` (${flavour.rating}/10)`;
+      list.appendChild(li);
+    });
+  </script>
+</body>
+</html>
