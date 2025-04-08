@@ -71,7 +71,6 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
       opacity: 0;
       transform: translateY(10px);
-      animation: fadeInUp 0.4s forwards;
     }
 
     @keyframes fadeInUp {
@@ -161,6 +160,9 @@
           ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
           : flavour.name} (${flavour.rating}/10)`;
         list.appendChild(li);
+          requestAnimationFrame(() => {
+          li.style.animation = "fadeInUp 0.4s forwards";
+        });
       });
     }
 
