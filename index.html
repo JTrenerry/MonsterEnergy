@@ -36,6 +36,27 @@
       color: var(--foam);
     }
 
+    #controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    input, label, button {
+      margin: 0.5rem;
+      background: var(--surface);
+      border: none;
+      color: var(--text);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: var(--highlight-med);
+      cursor: pointer;
+    }
+
     ol {
       max-width: 700px;
       margin: 2rem auto;
@@ -48,6 +69,16 @@
       margin-bottom: 1rem;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeInUp 0.4s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     a {
@@ -62,6 +93,13 @@
 </head>
 <body>
   <h1>Monster Energy Tierlist</h1>
+  <h2>MonsterEnergy</h2>
+
+  <div id="controls">
+    <label><input type="checkbox" id="top10Toggle"> Show Top 10 Only</label>
+    <input type="text" id="searchInput" placeholder="Search flavour...">
+  </div>
+
   <ol id="tierlist"></ol>
 
   <script>
@@ -102,16 +140,33 @@
       { name: "Monster Energy Khaotic", rating: -1 },
     ];
 
-    flavours.sort((a, b) => b.rating - a.rating);
-
     const list = document.getElementById("tierlist");
-    flavours.forEach((flavour) => {
-      const li = document.createElement("li");
-      li.innerHTML = `${flavour.link
-        ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
-        : flavour.name} (${flavour.rating}/10)`;
-      list.appendChild(li);
-    });
+    const top10Toggle = document.getElementById("top10Toggle");
+    const searchInput = document.getElementById("searchInput");
+
+    function renderList() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const top10Only = top10Toggle.checked;
+      list.innerHTML = "";
+      const sorted = [...flavours].sort((a, b) => b.rating - a.rating);
+      const filtered = sorted.filter((f, i) => {
+        const matchesSearch = f.name.toLowerCase().includes(searchTerm);
+        const isInTop10 = !top10Only || i < 10;
+        return matchesSearch && isInTop10;
+      });
+
+      filtered.forEach((flavour) => {
+        const li = document.createElement("li");
+        li.innerHTML = `${flavour.link
+          ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
+          : flavour.name} (${flavour.rating}/10)`;
+        list.appendChild(li);
+      });
+    }
+
+    top10Toggle.addEventListener("change", renderList);
+    searchInput.addEventListener("input", renderList);
+    renderList();
   </script>
 </body>
 </html>
