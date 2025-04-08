@@ -34,6 +34,7 @@
 32. Monster Energy Import (1/10)
 33. [Monster Energy Zero Sugar](https://www.coles.com.au/product/monster-energy-drink-zero-sugar-can-500ml-7717116) (0.5/10)
 34. Monster Energy (0/10)
-35. Monster Energy Khaotic (-1/10)
+35. Monster Juice Pacific Punch (-1/10)
+36. Monster Energy Khaotic (-1/10)
 
 [Homepage](https://jtrenerry.github.io/)
