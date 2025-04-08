@@ -146,7 +146,7 @@
       const sorted = [...flavours].sort((a, b) => b.rating - a.rating);
       const filtered = sorted.filter((f, i) => {
         const matchesSearch = f.name.toLowerCase().includes(searchTerm);
-        return matchesSearch && isInTop10;
+        return matchesSearch;
       });
 
       filtered.forEach((flavour) => {
