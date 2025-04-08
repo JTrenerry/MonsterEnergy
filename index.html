@@ -138,17 +138,14 @@
     ];
 
     const list = document.getElementById("tierlist");
-    const top10Toggle = document.getElementById("top10Toggle");
     const searchInput = document.getElementById("searchInput");
 
     function renderList() {
       const searchTerm = searchInput.value.toLowerCase();
-      const top10Only = top10Toggle.checked;
       list.innerHTML = "";
       const sorted = [...flavours].sort((a, b) => b.rating - a.rating);
       const filtered = sorted.filter((f, i) => {
         const matchesSearch = f.name.toLowerCase().includes(searchTerm);
-        const isInTop10 = !top10Only || i < 10;
         return matchesSearch && isInTop10;
       });
 
@@ -165,7 +162,6 @@
       });
     }
 
-    top10Toggle.addEventListener("change", renderList);
     searchInput.addEventListener("input", renderList);
     renderList();
   </script>
