@@ -5,31 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Monster Energy Tierlist</title>
   <style>
+    /* Rose Pine Moon palette */
+    :root {
+      --base: #232136;
+      --surface: #2a273f;
+      --overlay: #393552;
+      --muted: #6e6a86;
+      --subtle: #908caa;
+      --text: #e0def4;
+      --love: #eb6f92;
+      --gold: #f6c177;
+      --rose: #ea9a97;
+      --pine: #3e8fb0;
+      --foam: #9ccfd8;
+      --iris: #c4a7e7;
+      --highlight-low: #2a283e;
+      --highlight-med: #44415a;
+      --highlight-high: #56526e;
+    }
+
     body {
       font-family: Arial, sans-serif;
       margin: 2rem;
-      background-color: #f8f8f8;
-      color: #333;
+      background-color: var(--base);
+      color: var(--text);
     }
+
     h1, h2 {
       text-align: center;
+      color: var(--foam);
     }
+
     ol {
       max-width: 700px;
       margin: 2rem auto;
       padding: 0;
     }
+
     li {
-      background: white;
+      background: var(--surface);
       padding: 1rem;
       margin-bottom: 1rem;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
+
     a {
-      color: #0073e6;
+      color: var(--iris);
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
@@ -81,13 +106,11 @@
     flavours.sort((a, b) => b.rating - a.rating);
 
     const list = document.getElementById("tierlist");
-    flavours.forEach((flavour, index) => {
+    flavours.forEach((flavour) => {
       const li = document.createElement("li");
-      li.innerHTML = `${index + 1}. ` +
-        (flavour.link
-          ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
-          : flavour.name) +
-        ` (${flavour.rating}/10)`;
+      li.innerHTML = `${flavour.link
+        ? `<a href="${flavour.link}" target="_blank">${flavour.name}</a>`
+        : flavour.name} (${flavour.rating}/10)`;
       list.appendChild(li);
     });
   </script>
